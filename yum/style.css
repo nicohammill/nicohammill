@@ -47,6 +47,60 @@ table {
 	border-spacing: 0;
 }
 
-/* END OF RESET - Start of Your CSS*/
+/* ================================END OF RESET - Start of Your CSS=========================================*/
 
+body {
+	padding:20px;	
+}
 
+section { padding-top:20px; }
+
+footer { padding-top:20px; }
+
+h1 {
+	font-size:40px;
+	font-family:akzidenz-grotesk bq;
+	font-weight:bolder;
+}
+
+h2 {
+	font-size:40px;
+	font-family:akzidenz-grotesk bq;
+	font-weight:lighter;
+	line-height:.5em;
+}
+
+h4 {
+	font-size:20px;
+	font-family:akzidenz-grotesk bq;
+	font-weight:bolder;
+}
+
+h3 {
+	font-size:20px;
+	font-family:akzidenz-grotesk bq;
+	font-weight:lighter;
+	line-height:.5em;
+}
+
+em { 
+	font-weight:bolder;
+	padding-right:10px;
+}
+
+li {
+	font-family:adobe jenson pro;
+	line-height:1.4em;
+}
+
+div { 
+	padding-top:20px;
+	font-size:20px;
+	font-family:akzidenz-grotesk bq;
+	font-weight:lighter;
+}
+
+a {
+	color:gold;
+	text-decoration:none;
+}
