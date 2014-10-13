@@ -53,3 +53,25 @@ table {
 /* -----------------END RESET---------------- */
 
 
+
+/*====================================================START HERE=====================================================*/
+
+
+article {
+	padding:2%;
+	background-color:blue;
+	float:left;
+	width:30%;
+}
+
+h1 {
+	background-color:yellow;
+}
+
+h2 {
+	background-color:orange;
+}
+
+p {
+	background-color:red;
+}

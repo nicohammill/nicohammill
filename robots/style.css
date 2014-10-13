@@ -50,3 +50,66 @@ table {
 	border-spacing: 0;
 }
 
+/*===================================================START HERE====================================================*/
+
+
+body {
+	font-family:sans-serif;
+}
+
+a { text-decoration:none; }
+
+#site-header {
+	padding:5% 0% 2% 10%;
+	background-color:beige;
+	position:relative;
+}
+
+#top-nav {
+	position:absolute;
+	top:10%;
+	right:10%;	
+}
+
+
+#main-menu {
+	background-color:saddlebrown;
+	padding:1% 10% 2% 10%;
+}
+
+.main-menu-item { 
+	float:left;
+	padding-right:5%; 
+}
+
+#content-wrapper {
+	position:relative;
+}
+
+#page {
+	background-color:beige;
+	position:absolute;
+	top:0%;
+	left:0%;
+	padding:5% 5% 5% 10%;
+	width:40%;
+}
+
+p { padding:2% 0% 0% 0%; }
+
+h2 { padding:6% 0% 0% 0%; }
+
+#sidebar {
+	background-color:beige;
+	position:absolute;
+	top:0%;
+	right:0%;
+	width:275px;
+	padding:5% 10% 5% 0%;
+}
+
+#site-footer {
+	background-color:saddlebrown;
+	height:400px;
+	padding:50% 5% 5% 10%;
+}
