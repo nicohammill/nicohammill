@@ -55,61 +55,126 @@ table {
 
 body {
 	font-family:sans-serif;
+	background-color:white;
 }
 
-a { text-decoration:none; }
+a { 
+	text-decoration:none;
+}
 
 #site-header {
-	padding:5% 0% 2% 10%;
+	padding:5% 0% 0% 10%;
 	background-color:beige;
 	position:relative;
 }
 
 #top-nav {
+	color:saddlebrown;
 	position:absolute;
 	top:10%;
 	right:10%;	
 }
 
+.login-contact {
+	font-size:12px;
+	color:saddlebrown;
+}
+
 
 #main-menu {
 	background-color:saddlebrown;
+	height:10%;
 	padding:1% 10% 2% 10%;
 }
 
-.main-menu-item { 
+.main-menu-item {
 	float:left;
-	padding-right:5%; 
+	padding-right:5%;
 }
 
-#content-wrapper {
-	position:relative;
+.navbar {
+	color:white;
 }
 
 #page {
-	background-color:beige;
-	position:absolute;
-	top:0%;
-	left:0%;
+	float:left;
+	background-color:white;
 	padding:5% 5% 5% 10%;
 	width:40%;
 }
 
-p { padding:2% 0% 0% 0%; }
+p { 
+	line-height:20px;
+	padding:2% 0% 0% 0%;
+	color:black;
+}
 
-h2 { padding:6% 0% 0% 0%; }
+h1 {
+	color:saddlebrown;
+	text-transform:uppercase;
+	font-size:30px;
+	font-weight:bold;
+}
+
+h2 {
+	color:saddlebrown;
+	text-transform:uppercase;
+	font-size:15px;
+	font-weight:bold; 
+	padding:4% 0% 0% 0%; 
+}
 
 #sidebar {
-	background-color:beige;
-	position:absolute;
-	top:0%;
-	right:0%;
-	width:275px;
+	line-height:25px;
+	color:saddlebrown;
+	float:right;
+	background-color:white;
+	width:20%;
 	padding:5% 10% 5% 0%;
 }
 
-#site-footer {
+.sidebar-head {
+	font-size:15px;
+}
+
+.sidebar {
+	color:saddlebrown;
+}
+
+#footer-wrapper {
+	float:left;
+	height:100%;
+	width:100%;
 	background-color:saddlebrown;
-	height:400px;
-	padding:50% 5% 5% 10%;
+}
+
+#site-footer {
+	width:100%;
+	float:left;
+	padding:2% 10% 5% 10%;
+}
+
+.footer-head {
+	padding-bottom:5px;
+	color:silver;
+	font-size:15px;
+}
+
+#footer-contact {
+	float:left;
+	width:15%;
+}
+
+#footer-follow {
+	padding-left:45%;
+	float:left;
+	width:20%;
+}
+
+.contact-us {
+	color:silver;
+}
+
+.button {
+	float:left;
 }
