@@ -57,11 +57,16 @@ table {
 /*====================================================START HERE=====================================================*/
 
 
+body {
+	width:80%;
+	margin:0 auto;
+}
+
 article {
 	padding:2%;
 	background-color:blue;
 	float:left;
-	width:30%;
+	width:45%;
 }
 
 h1 {
