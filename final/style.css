@@ -1,2 +1,9 @@
-.img {width:20%;}
-.link {width:100%;}
+.img {
+	width:20%;
+	padding:.5%;
+}
+.link {
+	padding-right:80%;
+	font-size:2em;
+	width:100%;
+}
