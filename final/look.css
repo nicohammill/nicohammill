@@ -85,10 +85,15 @@ a {
 	text-decoration:none;
 }
 
-.nav-1 {
+li {
 	padding-right:5%;
 	padding-left:5%;
 	display:inline-block;
+}
+
+.nav-1 {
+	padding-right:5%;
+	padding-left:5%;
 }
 
 #mel-b {
