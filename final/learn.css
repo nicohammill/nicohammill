@@ -54,39 +54,77 @@ table {
 
 body {
 	margin:0 auto;
-	background-color:pink;
+	background-color:#f6d2e4;
 	width:100%;
 }
 
 header {
+	letter-spacing:.1em;
+	padding-top:1.6%;
+	padding-bottom:1.6%;
+	color:#3fc6eb;
+	font-size:2.8em;
+	font-family: 'akzidenz-grotesk_bq_extendeBd';
+	text-transform:uppercase;
 	text-align:center;
 }
 
 nav {
+	letter-spacing:.1em;
+	padding-top:.8%;
+	padding-bottom:.8%;
+	background-color:#3fc6eb;
+	font-size:1.5em;
+	font-family: 'akzidenz-grotesk_bq_extendeBd';
+	text-transform:uppercase;
 	text-align:center;
 }
 
 a {
+	color:#f6d2e4;
 	text-decoration:none;
 }
 
+li {
+	
+}
+
 .nav {
-	padding-right:2%;
-	padding-left:2%;
+	padding-right:5%;
+	padding-left:5%;
 	display:inline-block;
 }
 
 .nav-2 {
-	list-style-type:none;
+	line-height:1.5em;
+	color:black;
+	font-size:1em;
+	font-family: 'akzidenz-grotesk_bq_extendeBd';
+	text-transform:uppercase;
+}
+
+h2 {
+	line-height:1.5em;
+	font-family: 'akzidenz-grotesk_bq_extendeBd';
+	font-size:1em;
+	text-transform:uppercase;
+}
+
+p {
+	line-height:1.5em;
+	font-family: 'akzidenz-grotesk_bq_lightRg';
+	font-size:1.2em;
 }
 
 #content-list {
+	padding-top:2%;
 	padding-left:3%;
 	width:12%;
 	float:left;
 }
 
 #content {
+	padding-top:2%;
 	float:left;
 	width:40%;
 }
@@ -100,4 +138,33 @@ a {
 #content-wrapper {
 	width:100%;
 	float:left;
+}
+
+
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_extendeBd';
+    src: url('fonts/akzidenzgrotesk-boldextended-webfont.eot');
+    src: url('fonts/akzidenzgrotesk-boldextended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/akzidenzgrotesk-boldextended-webfont.woff2') format('woff2'),
+         url('fonts/akzidenzgrotesk-boldextended-webfont.woff') format('woff'),
+         url('fonts/akzidenzgrotesk-boldextended-webfont.ttf') format('truetype'),
+         url('fonts/akzidenzgrotesk-boldextended-webfont.svg#akzidenz-grotesk_bq_extendeBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_lightRg';
+    src: url('fonts/akzidenzgrotesk-light-webfont.eot');
+    src: url('fonts/akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/akzidenzgrotesk-light-webfont.woff2') format('woff2'),
+         url('fonts/akzidenzgrotesk-light-webfont.woff') format('woff'),
+         url('fonts/akzidenzgrotesk-light-webfont.ttf') format('truetype'),
+         url('fonts/akzidenzgrotesk-light-webfont.svg#akzidenz-grotesk_bq_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
