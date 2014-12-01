@@ -58,6 +58,10 @@ body {
 	width:100%;
 }
 
+#header {
+	color:#3fc6eb;
+}
+
 header {
 	letter-spacing:.1em;
 	padding-top:1.6%;
