@@ -97,6 +97,29 @@ img {
 
 
 
+/* mediaqueries */
+
+@media screen and (max-width:770px){
+	
+	nav {
+		display:none;
+		position:fixed;
+		float:left;
+		padding-bottom:100%;
+	}
+	
+	li {
+		padding-top:20%;
+		display:block;
+	}
+	
+	img {
+		float:left;
+	}
+}
+
+
+
 /* fonts */
 
 @font-face {
