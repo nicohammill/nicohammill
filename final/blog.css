@@ -141,7 +141,7 @@ span {
 
 #hamburger {
 	display:none;
-	position:absolute;
+	position:fixed;
 	top:11%;
 	left:1.5%;
 	width:7%;
@@ -151,6 +151,8 @@ span {
 @media screen and (max-width:770px){
 	
 	article {
+		padding-right:0%;
+		padding-left:0%;
 		width:100%;
 	}
 

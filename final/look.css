@@ -110,13 +110,17 @@ img {
 	width:100%;
 }
 
+#mobile {
+	display:none;
+}
+
 span {
 	color:#f2f2f2;
 }
 
 #hamburger {
 	display:none;
-	position:absolute;
+	position:fixed;
 	top:11%;
 	left:1.5%;
 	width:7%;
@@ -124,6 +128,14 @@ span {
 
 
 @media screen and (max-width:770px){
+	
+	#desktop {
+		display:none;
+	}
+	
+	#mobile {
+		display:block;
+	}
 	
 	#hamburger {
 		display:block;
