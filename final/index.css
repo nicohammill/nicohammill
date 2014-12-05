@@ -67,7 +67,7 @@ header {
 	padding-top:1.6%;
 	padding-bottom:1.6%;
 	color:#3fc6eb;
-	font-size:2.8em;
+	font-size:2.75em;
 	font-family: 'akzidenz-grotesk_bq_extendeBd';
 	text-transform:uppercase;
 	text-align:center;
@@ -95,8 +95,21 @@ li {
 	display:inline-block;
 }
 
-img {
+#desktop {
 	width:100%;
+}
+
+#mobile {
+	display:none;
+	width:100%;
+}
+
+#hamburger {
+	display:none;
+	position:absolute;
+	top:11%;
+	left:1.5%;
+	width:7%;
 }
 
 
@@ -104,6 +117,18 @@ img {
 /* mediaqueries */
 
 @media screen and (max-width:770px){
+	
+	#hamburger {
+		display:block;
+	}
+	
+	#mobile {
+		display:block;
+	}
+	
+	#desktop {
+		display:none;
+	}
 	
 	nav {
 		display:none;

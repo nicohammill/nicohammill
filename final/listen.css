@@ -67,7 +67,7 @@ header {
 	padding-top:1.6%;
 	padding-bottom:1.6%;
 	color:#3fc6eb;
-	font-size:2.8em;
+	font-size:2.75em;
 	font-family: 'akzidenz-grotesk_bq_extendeBd';
 	text-transform:uppercase;
 	text-align:center;
@@ -162,8 +162,81 @@ span {
 	padding-left:19.5%;
 }
 
+#hamburger {
+	display:none;
+	position:fixed;
+	top:11%;
+	left:1.5%;
+	width:7%;
+}
 
 
+@media screen and (max-width:770px){
+	
+	.album-section {
+		width:100%;
+	}
+	
+	#row-1 {
+		float:none;
+	}
+	
+	#row-2 {
+		float:none;
+	}
+	
+	#spice {
+		padding-left:0%;
+	}
+	
+	#spiceworld {
+		padding-left:0%;
+	}
+	
+	#one-hour-of-girl-power {
+		padding-left:0%;
+	}
+	
+	#forever {
+		padding-left:0%;
+	}
+	
+	#greatest-hits {
+		padding-left:0%;
+	}
+	
+	h3 {
+		font-size:1em;
+	}
+	
+	#hamburger {
+		display:block;
+	}
+	
+	#mobile {
+		display:block;
+	}
+	
+	#desktop {
+		display:none;
+	}
+	
+	nav {
+		display:none;
+		position:fixed;
+		float:left;
+		padding-bottom:100%;
+	}
+	
+	li {
+		padding-top:20%;
+		display:block;
+	}
+	
+	img {
+		float:left;
+	}
+}
 
 
 
