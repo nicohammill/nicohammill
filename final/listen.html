@@ -8,17 +8,21 @@
   <link rel="stylesheet" href="listen.css" type="text/css" media="screen" />
 </head>
 <body>
-	<header>
+	<div class="header">
 		<a id="header" href="http://nicohammill.github.io/final/">spice girls</a>
-	</header>
+	</div>
+	<div class="overlay"></div>
+	<header>
+	<div class="navBtn">+</div>
 	<nav>
-		<li><a href="http://nicohammill.github.io/final/blog">blog</a></li>
-		<li><a href="http://nicohammill.github.io/final/look">look</a></li>
-		<li><a href="http://nicohammill.github.io/final/learn">learn</a></li>
-		<li><a href="http://nicohammill.github.io/final/listen"><span>listen</span></a></li>
+	<a class="top-nav" href="http://nicohammill.github.io/final/blog">blog</a>
+	<a class="top-nav" href="http://nicohammill.github.io/final/look">look</a>
+	<a class="top-nav" href="http://nicohammill.github.io/final/learn">learn</a>
+	<a class="top-nav" href="http://nicohammill.github.io/final/listen">listen</a>
 	</nav>
-	<img id='hamburger' src='images/hamburger.png' alt="hamburger">
+	</header>
 	
+	<div class="main">
 	<section id='albums'>
 		
 	<section id='row-1'>
@@ -66,5 +70,31 @@
 	</section id='row-2'>	
 	
 	</section id='albums'>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script>
+	$(document).ready(function () { 
+ 
+	  var toggleMenu = function() {
+	      $('header').toggleClass('toggle');
+	      $('.main').toggleClass('push');
+	      $('.overlay').toggleClass('block');
+	      $('#social, .logo').toggleClass('reveal');
+	  };
+ 
+	    //Nav
+	    $('.navBtn').click(function() {
+	    toggleMenu();
+	    });
+ 
+	  Mousetrap.bind('esc', function() {
+	    toggleMenu();
+	  });
+ 
+	});
+	</script>
 
 </body>
+</html>

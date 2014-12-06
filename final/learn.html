@@ -8,20 +8,20 @@
   <link rel="stylesheet" href="learn.css" type="text/css" media="screen" />
 </head>
 <body>
-	<div id='header'>
-	<header>
+	<div class="header">
 		<a id="header" href="http://nicohammill.github.io/final/">spice girls</a>
-	</header>
-	</div id='header'>
-	<div id='nav'>
+	</div>
+	<div class="overlay"></div>
+	<header>
+	<div class="navBtn">+</div>
 	<nav>
-		<li class="nav"><a href="http://nicohammill.github.io/final/blog" class='nav-1'>blog</a></li>
-		<li class="nav"><a href="http://nicohammill.github.io/final/look" class='nav-1'>look</a></li>
-		<li class="nav"><a href="http://nicohammill.github.io/final/learn" class='nav-1'><span>learn<span></a></li>
-		<li class="nav"><a href="http://nicohammill.github.io/final/listen" class='nav-1'>listen</a></li>
+	<a class="top-nav" href="http://nicohammill.github.io/final/blog">blog</a>
+	<a class="top-nav" href="http://nicohammill.github.io/final/look">look</a>
+	<a class="top-nav" href="http://nicohammill.github.io/final/learn">learn</a>
+	<a class="top-nav" href="http://nicohammill.github.io/final/listen">listen</a>
 	</nav>
-	<img id='hamburger' src='images/hamburger.png' alt="hamburger">
-	</div id='nav'>
+	</header>
+	<div class="main">
 	<div id='content-wrapper'>
 		<div id='content-list'>
 			<ul><a href="#########" class='nav-2'>overview</a></ul>
@@ -158,7 +158,34 @@ The first single launched from her self-titled album was 'Not Such an Innocent G
 			<img src="images/spicegirls01.jpg" alt="spicegirls01">
 		</div id='side-image'>
 	</div id='content-wrapper'>
-</body>		
+</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script>
+	$(document).ready(function () { 
+ 
+	  var toggleMenu = function() {
+	      $('header').toggleClass('toggle');
+	      $('.main').toggleClass('push');
+	      $('.overlay').toggleClass('block');
+	      $('#social, .logo').toggleClass('reveal');
+	  };
+ 
+	    //Nav
+	    $('.navBtn').click(function() {
+	    toggleMenu();
+	    });
+ 
+	  Mousetrap.bind('esc', function() {
+	    toggleMenu();
+	  });
+ 
+	});
+	</script>
+
+</body>	
+</html>	
 			
 			
 			
