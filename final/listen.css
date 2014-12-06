@@ -187,6 +187,10 @@ span {
 		width:100%;
 	}
 	
+	.youtube {
+		padding-top:1%;
+	}
+	
 	#row-1 {
 		float:none;
 	}
@@ -216,6 +220,8 @@ span {
 	}
 	
 	h3 {
+		padding-top:5%;
+		padding-left:1%;
 		font-size:1em;
 	}
 	
@@ -243,6 +249,7 @@ span {
 	}
 	
 	img {
+		padding-bottom:3%;
 		float:left;
 	}
 	
